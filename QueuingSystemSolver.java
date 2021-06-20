@@ -7,7 +7,7 @@ package queuingsystemsolver;
 import java.util.Scanner;
 import java.io.*;
 
-// 각 메뉴 선택에 대한 상수 선언 (Java에서 간단한 상수 선언시에는 주로 enum대신 interface를 사용).
+// 각 메뉴 선택에 대한 상수 선언 (Java에서 간단한 상수 선언시에는 주로 enum 대신 interface를 사용).
 interface INIT_MENU { int EXIT = 0, KEYBOARD_INPUT = 1, FILE_INPUT = 2, OUTPUT = 3, FILE_OUTPUT = 4; }
 
 public class QueuingSystemSolver {
